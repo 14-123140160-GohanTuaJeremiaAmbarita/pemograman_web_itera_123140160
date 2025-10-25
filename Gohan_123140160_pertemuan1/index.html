@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Tugas Mahasiswa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Manajemen Tugas 📚</h1>
+
+      <div class="stats-box">
+        Tugas Belum Selesai: <span id="tasks-pending-count">0</span>
+      </div>
+
+      <form id="task-form">
+        <h2>Tambah Tugas Baru</h2>
+        <input type="text" id="task-name" placeholder="Nama Tugas" required />
+        <input
+          type="text"
+          id="task-course"
+          placeholder="Mata Kuliah"
+          required
+        />
+        <label for="task-deadline">Tanggal Deadline</label>
+        <input
+          type="date"
+          id="task-deadline"
+          title="Tanggal Deadline"
+          placeholder="YYYY-MM-DD"
+          required
+        />
+        <button type="submit" class="primary-btn">Tambah Tugas</button>
+        <div id="form-error" class="error-message"></div>
+      </form>
+
+      <hr class="divider" />
+
+      <div class="controls">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Cari Tugas atau Mata Kuliah..."
+        />
+        <select id="filter-status">
+          <option value="all">Semua Status</option>
+          <option value="pending">Belum Selesai</option>
+          <option value="completed">Selesai</option>
+        </select>
+      </div>
+
+      <h2>Daftar Tugas</h2>
+      <ul id="task-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

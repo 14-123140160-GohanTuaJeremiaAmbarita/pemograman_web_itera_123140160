@@ -1,0 +1,187 @@
+:root {
+    --bg-dark: #1f2025;
+    --bg-card: #282a30;
+    --bg-light: #373941;
+    --color-text: #e0e0e0;
+    --color-primary: #50fa7b; /* Hijau neon */
+    --color-blue: #8be9fd;
+    --color-red: #ff5555;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--color-text);
+    margin: 0;
+    padding: 30px 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--bg-card);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--color-text);
+    border-bottom: 2px solid var(--bg-light);
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+/* Input dan Select Styling */
+input[type="text"], input[type="date"], select {
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid var(--bg-light);
+    background-color: var(--bg-dark);
+    color: var(--color-text);
+    transition: border-color 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus {
+    border-color: var(--color-primary);
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s, transform 0.1s;
+    font-weight: 600;
+}
+
+.primary-btn {
+    background-color: var(--color-primary);
+    color: var(--bg-dark);
+    margin-top: 15px;
+}
+
+.primary-btn:hover {
+    background-color: #44cc6e;
+    transform: translateY(-1px);
+}
+
+/* Kontrol (Filter/Search) */
+.controls {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.controls input, .controls select {
+    width: 50%;
+    margin: 0;
+}
+
+/* Statistik Box */
+.stats-box {
+    background-color: var(--bg-light);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--color-blue);
+}
+
+/* Daftar Tugas */
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+#task-list li {
+    background-color: var(--bg-light);
+    margin-bottom: 12px;
+    padding: 18px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-info {
+    flex-grow: 1;
+}
+
+.task-info h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.2em;
+}
+
+.task-info p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #aaaaaa;
+}
+
+.task-completed {
+    background-color: #31333a;
+    text-decoration: line-through;
+    opacity: 0.7;
+    border-left: 5px solid var(--color-primary);
+}
+
+.task-pending {
+    border-left: 5px solid var(--color-red);
+}
+
+.actions button {
+    width: auto;
+    margin-left: 10px;
+    padding: 8px 15px;
+    font-size: 0.9em;
+}
+
+.delete-btn {
+    background-color: var(--color-red);
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #cc4444;
+}
+
+.complete-btn {
+    background-color: var(--color-blue);
+    color: var(--bg-dark);
+}
+
+.complete-btn:hover {
+    background-color: #78d2e8;
+}
+
+.error-message {
+    color: var(--color-red);
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3b2c2c;
+    border-radius: 4px;
+    display: none; 
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: var(--bg-light);
+    margin: 30px 0;
+}
