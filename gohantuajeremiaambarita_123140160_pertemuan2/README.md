@@ -80,25 +80,12 @@ Siapkan screenshot dari aplikasi yang sudah dijalankan. Simpan gambar dengan nam
 
 | Screenshot | Nama file | Hal yang ditampilkan |
 | --- | --- | --- |
-| Dashboard utama | `docs/screenshot/dashboard.png` | Form, beberapa tugas, statistik, dan kartu inspirasi. |
-| Mode edit | `docs/screenshot/edit-tugas.png` | Salah satu tugas sedang diedit pada form. |
-| Tampilan seluler | `docs/screenshots/inspirasi.png` | Dashboard pada layar sempit untuk menunjukkan responsivitas. |
+| Dashboard utama | ![Dashboard utama Kampus Fokus](screenshot/dashboard.png) | Form, beberapa tugas, statistik, dan kartu inspirasi. |
+| Mode edit | ![Mode edit tugas Kampus Fokus](screenshot/edit-tugas.png) | Salah satu tugas sedang diedit pada form. |
+| Tampilan seluler | ![Tampilan Fitur API](screenshot/inspirasi.png) | Dashboard pada layar sempit untuk menunjukkan responsivitas. |
 
 Screenshot belum dilampirkan pada dokumen ini. Setelah gambar tersedia, hapus penanda komentar HTML `<!--` dan `-->` pada blok berikut agar gambar tampil di GitHub:
 
-<!--
-### Dashboard utama
-
-![Dashboard utama Kampus Fokus](screenshot/dashboard.png)
-
-### Mode edit tugas
-
-![Mode edit tugas Kampus Fokus](screenshot/edit-tugas.png)
-
-### Tampilan Fitur API
-
-![Tampilan seluler Kampus Fokus](screenshot/inspirasi.png)
--->
 
 ## Daftar fitur ES6+ dan lokasi kode
 
