@@ -80,16 +80,9 @@ Siapkan screenshot dari aplikasi yang sudah dijalankan. Simpan gambar dengan nam
 
 | Screenshot | Nama file | Hal yang ditampilkan |
 | --- | --- | --- |
-<<<<<<< HEAD
 | Dashboard utama | ![Dashboard utama Kampus Fokus](screenshot/dashboard.png) | Form, beberapa tugas, statistik, dan kartu inspirasi. |
 | Mode edit | ![Mode edit tugas Kampus Fokus](screenshot/edit-tugas.png) | Salah satu tugas sedang diedit pada form. |
 | Tampilan seluler | ![Tampilan Fitur API](screenshot/inspirasi.png) | Dashboard pada layar sempit untuk menunjukkan responsivitas. |
-=======
-| Dashboard utama | ![Dashboard utama Kampus Fokus](screenshot/dashboard.png)
- | Form, beberapa tugas, statistik, dan kartu inspirasi. |
-| Mode edit | ![Mode edit tugas Kampus Fokus](screenshot/edit-tugas.png) | Salah satu tugas sedang diedit pada form. |
-| Tampilan seluler | ![Tampilan seluler Kampus Fokus](screenshot/inspirasi.png) | Dashboard pada layar sempit untuk menunjukkan responsivitas. |
->>>>>>> 7aedbfa (Commit)
 
 
 
