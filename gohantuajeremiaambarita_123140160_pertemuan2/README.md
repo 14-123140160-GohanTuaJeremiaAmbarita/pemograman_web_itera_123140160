@@ -80,9 +80,9 @@ Siapkan screenshot dari aplikasi yang sudah dijalankan. Simpan gambar dengan nam
 
 | Screenshot | Nama file | Hal yang ditampilkan |
 | --- | --- | --- |
-| Dashboard utama | `docs/screenshots/01-dashboard.png` | Form, beberapa tugas, statistik, dan kartu inspirasi. |
-| Mode edit | `docs/screenshots/02-edit-tugas.png` | Salah satu tugas sedang diedit pada form. |
-| Tampilan seluler | `docs/screenshots/03-mobile.png` | Dashboard pada layar sempit untuk menunjukkan responsivitas. |
+| Dashboard utama | `docs/screenshot/dashboard.png` | Form, beberapa tugas, statistik, dan kartu inspirasi. |
+| Mode edit | `docs/screenshot/edit-tugas.png` | Salah satu tugas sedang diedit pada form. |
+| Tampilan seluler | `docs/screenshots/inspirasi.png` | Dashboard pada layar sempit untuk menunjukkan responsivitas. |
 
 Screenshot belum dilampirkan pada dokumen ini. Setelah gambar tersedia, hapus penanda komentar HTML `<!--` dan `-->` pada blok berikut agar gambar tampil di GitHub:
 
