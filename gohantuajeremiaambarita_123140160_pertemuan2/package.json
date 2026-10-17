@@ -1,0 +1,17 @@
+{
+  "name": "gohan-pertemuan2",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "screenshots": "node tools/capture-screenshots.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0",
+    "playwright": "1.56.1"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

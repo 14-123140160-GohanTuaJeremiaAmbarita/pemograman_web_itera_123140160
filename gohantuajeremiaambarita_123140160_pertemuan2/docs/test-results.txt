@@ -1,0 +1,22 @@
+$ npm test
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> gohan-pertemuan2@1.0.0 test
+> node --test tests/*.test.js
+
+✔ form tidak valid ditolak dan menampilkan error per field (97.368379ms)
+✔ menambah, mengedit, dan menghapus tugas memperbarui localStorage (33.904164ms)
+✔ status selesai, filter, pencarian, dan statistik saling sinkron (26.616717ms)
+✔ data persisten dipulihkan dan JSON rusak tidak menghentikan aplikasi (44.471303ms)
+✔ async fetch sukses menampilkan quote dan author (11.836431ms)
+✔ fetch gagal menyediakan feedback dan CRUD tetap berfungsi (13.773694ms)
+✔ template literal meng-escape input agar nama tugas tidak menjadi HTML (18.53291ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 564.669153
