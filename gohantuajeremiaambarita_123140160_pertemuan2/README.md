@@ -89,15 +89,15 @@ Screenshot belum dilampirkan pada dokumen ini. Setelah gambar tersedia, hapus pe
 <!--
 ### Dashboard utama
 
-![Dashboard utama Kampus Fokus](screenshots/dashboard.png)
+![Dashboard utama Kampus Fokus](screenshot/dashboard.png)
 
 ### Mode edit tugas
 
-![Mode edit tugas Kampus Fokus](screenshots/edit-tugas.png)
+![Mode edit tugas Kampus Fokus](screenshot/edit-tugas.png)
 
 ### Tampilan Fitur API
 
-![Tampilan seluler Kampus Fokus](screenshots/inspirasi.png)
+![Tampilan seluler Kampus Fokus](screenshot/inspirasi.png)
 -->
 
 ## Daftar fitur ES6+ dan lokasi kode
