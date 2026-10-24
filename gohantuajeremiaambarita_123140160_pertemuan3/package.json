@@ -1,0 +1,33 @@
+{
+  "name": "rak-pribadi-gohan-123140160",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "screenshots": "node tools/capture-screenshots.mjs"
+  },
+  "dependencies": {
+    "prop-types": "15.8.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.30.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.6.3",
+    "@testing-library/react": "16.3.0",
+    "@testing-library/user-event": "14.6.1",
+    "@vitejs/plugin-react": "4.7.0",
+    "jsdom": "26.1.0",
+    "vite": "6.4.1",
+    "vitest": "3.2.4",
+    "playwright": "1.56.1"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

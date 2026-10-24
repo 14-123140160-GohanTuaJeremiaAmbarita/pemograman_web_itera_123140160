@@ -1,0 +1,26 @@
+.book-form {
+  position: sticky;
+  top: 24px;
+}
+.book-form .number {
+  font-size: 1.3rem;
+  background: var(--soft);
+  border: 0;
+  color: var(--brand);
+}
+.form-note {
+  border-top: 1px dashed var(--line);
+  padding-top: 20px;
+  margin: 22px 0 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.8;
+}
+.cancel-edit {
+  margin-top: 9px;
+}
+@media (max-width: 1000px) {
+  .book-form {
+    position: static;
+  }
+}

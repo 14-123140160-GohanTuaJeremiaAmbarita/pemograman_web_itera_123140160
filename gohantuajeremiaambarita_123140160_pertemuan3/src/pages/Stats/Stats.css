@@ -1,0 +1,28 @@
+.stats-panel {
+  max-width: 850px;
+}
+.distribution {
+  margin: 26px 0;
+}
+.distribution > div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.87rem;
+  margin-bottom: 8px;
+}
+.distribution progress {
+  width: 100%;
+  height: 12px;
+  accent-color: var(--brand);
+}
+.stats-note {
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+  margin-top: 26px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.8;
+}
+.stats-panel .muted {
+  font-size: 0.83rem;
+}
